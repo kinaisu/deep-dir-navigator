@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "api": "json-server --watch server/fs.json --port 3000"
   },
   "prettier": {
     "printWidth": 100,
@@ -40,6 +41,7 @@
     "@angular/compiler-cli": "^21.0.0",
     "@angular/material": "^21.2.0",
     "jsdom": "^27.1.0",
+    "json-server": "^1.0.0-beta.9",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
